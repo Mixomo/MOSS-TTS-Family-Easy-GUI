@@ -1,0 +1,121 @@
+# ============================================================
+# MOSS-TTS Family Easy GUI
+# ============================================================
+
+# Python environment
+.venv/
+
+# ------------------------------------------------------------
+# Local runtime
+# Ignore runtime contents by default, except the precompiled
+# llama.cpp binaries distributed with the application.
+# ------------------------------------------------------------
+
+.runtime/*
+
+# Keep llama.cpp container
+!.runtime/llama-cpp/
+.runtime/llama-cpp/*
+
+# Precompiled MOSS-TTS bridge
+!.runtime/llama-cpp/bridge/
+!.runtime/llama-cpp/bridge/**
+
+# ------------------------------------------------------------
+# Private llama.cpp build tooling
+# ------------------------------------------------------------
+
+tools/build_llamacpp_cuda_runtime.bat
+tools/build_llamacpp_cuda_runtime.ps1
+
+# ------------------------------------------------------------
+# Downloaded models / user-generated content
+# ------------------------------------------------------------
+
+models/
+outputs/
+voices/
+
+# ------------------------------------------------------------
+# Training
+# ------------------------------------------------------------
+
+training/datasets/
+training/outputs/
+training/projects/
+
+# ------------------------------------------------------------
+# Python cache / compiled files
+# ------------------------------------------------------------
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ------------------------------------------------------------
+# Python / development caches
+# ------------------------------------------------------------
+
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.huggingface/
+hf-cache/
+
+# ------------------------------------------------------------
+# Build / packaging artifacts
+# ------------------------------------------------------------
+
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ------------------------------------------------------------
+# Native compilation artifacts
+# ------------------------------------------------------------
+
+*.obj
+*.o
+*.lib
+*.exp
+*.pdb
+*.ilk
+
+# ------------------------------------------------------------
+# Logs / temporary files
+# ------------------------------------------------------------
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.part
+
+# ------------------------------------------------------------
+# TensorBoard generated data
+# ------------------------------------------------------------
+
+runs/
+events.out.tfevents.*
+
+# ------------------------------------------------------------
+# Local credentials / environment
+# ------------------------------------------------------------
+
+.env
+.env.*
+!.env.example
+
+# ------------------------------------------------------------
+# IDE / operating-system metadata
+# ------------------------------------------------------------
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+desktop.ini

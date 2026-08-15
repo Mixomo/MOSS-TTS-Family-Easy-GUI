@@ -1,0 +1,11 @@
+https://huggingface.co/OpenMOSS-Team/MOSS-TTS
+
+https://github.com/OpenMOSS/MOSS-TTS/blob/main/docs/moss_tts_model_card.md
+
+https://github.com/OpenMOSS/MOSS-TTS/blob/main/docs/moss_ttsd_model_card.md
+
+https://github.com/OpenMOSS/MOSS-TTS/blob/main/docs/moss_voice_generator_model_card.md
+
+https://github.com/OpenMOSS/MOSS-TTS/blob/main/docs/moss_sound_effect_model_card.md
+
+https://github.com/OpenMOSS/MOSS-TTS/blob/main/docs/moss_tts_realtime_model_card.md
